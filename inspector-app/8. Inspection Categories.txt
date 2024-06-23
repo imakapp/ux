@@ -1,0 +1,113 @@
+                                     List of Inspection Categories Flow                          
+|________________________________________________________________________|
+| Step 1: Display List of Categories                                     |
+| - List of Categories:                                                  |
+|   - Car Body                                                           |
+|   - Electronic Diagnosis                                               |
+|   - Road Test                                                          |
+|   - Engine and Transmission                                            |
+|   - Tires and Brakes                                                   |
+|   - Defects and Scratches                                              |
+| - Action: Select a category to start inspection                        |
+|________________________________________________________________________|
+
+
+                                     Inspection Categories Flow                          
+|________________________________________________________________________|
+| Step 1: Inspect Car Body                                               |
+| - Multiple Inspection Points:                                          |
+|   - Bonnet                                                            |
+|   - Left fender                                                       |
+|   - Front left door                                                   |
+|   - Rear left door                                                    |
+|   - Left rocker / sill panels                                         |
+|   - Left quarter panel                                                |
+|   - Trunk / Boot door                                                 |
+|   - Right quarter panel                                               |
+|   - Rear right door                                                   |
+|   - Front right door                                                  |
+|   - Right rocker / sill panels                                        |
+|   - Right fender                                                      |
+|   - Car pillars                                                       |
+|   - Car roof                                                          |
+|   - All body panels properly aligned and no physical damage           |
+|   - Rearview and sideview mirrors                                     |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Electronic Diagnosis                                           |
+| - Multiple Inspection Points:                                          |
+|   - Engine                                                            |
+|   - Engine Control Unit                                               |
+|   - Transmission                                                      |
+|   - Braking System                                                    |
+|   - Airbag System                                                     |
+|   - Air Conditioning System                                           |
+|   - Instrument Cluster and Warning Lights                             |
+|   - Driving Electronics (e.g. Headlights, power steering, indicators) |
+|   - Driving Convenience features (e.g. cruise control, parking sensors, reversing camera) |
+|   - Navigation                                                        |
+|   - Windows & Sunroof                                                 |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Road Test                                                      |
+| - Multiple Inspection Points:                                          |
+|   - Steering wheel alignment                                          |
+|   - Drives straight on level ground                                   |
+|   - Transmission/Clutch                                               |
+|   - Brakes                                                            |
+|   - Suspension noises                                                 |
+|   - Tire noise                                                        |
+|   - Engine vibration and noise                                        |
+|   - Interior noise                                                    |
+|   - Steering condition during lock-to-lock                            |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Engine and Transmission                                        |
+| - Multiple Inspection Points:                                          |
+|   - Engine oil level                                                  |
+|   - Engine coolant level                                              |
+|   - Transmission fluid level                                          |
+|   - Belts and hoses condition                                         |
+|   - Check for leaks                                                   |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Tires and Brakes                                               |
+| - Multiple Inspection Points:                                          |
+|   - Matching tires                                                    |
+|   - Car rims (scratch & dent free)                                    |
+|   - Front brake discs                                                 |
+|   - Rear brake discs                                                  |
+|   - All lug nuts in place                                             |
+|   - All wheel locks and key available (where applicable)              |
+|   - Front left tire with date: 2021, depth: 80% (example data)        |
+|   - Front right tire with date: 2021, depth: 80%                      |
+|   - Rear left tire with date: 2021, depth: 80%                        |
+|   - Rear right tire with date: 2021, depth: 80%                       |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Defects and Scratches                                          |
+| - Inspection Points:                                                   |
+|   - Check for any visible defects or scratches                        |
+|   - Upload photo if any defects found                                  |
+| - Action: Confirm each point                                           |
+|________________________________________________________________________|

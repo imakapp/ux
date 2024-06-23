@@ -1,0 +1,58 @@
+                                     Sign Up Using Mobile Number Flow                          
+|________________________________________________________________________|
+| Step 1: Start Sign Up                                                  |
+| - Trigger: User selects sign up                                        |
+| - Action: Open sign up form                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Enter Mobile Number                                            |
+| - Field to Fill: Mobile Number                                         |
+| - Action: Submit Mobile Number                                         |
+| - Notification: Verification code (OTP) sent to mobile number          |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Enter OTP                                                      |
+| - Field to Fill: Enter OTP (Verification Code)                         |
+| - Action: Submit OTP                                                   |
+| - Notification: OTP verified                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Complete Profile                                               |
+| - Fields to Fill:                                                      |
+|   - Full Name                                                          |
+|   - Email Address (optional)                                           |
+|   - Contact Number (auto-filled from registration)                     |
+|   - Home Address                                                       |
+|   - Upload Profile Picture                                             |
+| - Action: Submit Profile Information                                   |
+| - Notification: Profile information saved                              |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Notification Preferences                                       |
+| - Select Preferred Notification Channels:                              |
+|   - Email                                                              |
+|   - SMS                                                                |
+|   - App Notifications                                                  |
+| - Action: Save Preferences                                             |
+| - Notification: Preferences saved                                      |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Registration Complete                                          |
+| - Notification: Registration successful                                |
+| - Action: Redirect to Home Page                                        |
+|________________________________________________________________________|
