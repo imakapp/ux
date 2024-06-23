@@ -1,0 +1,15 @@
+                                     Car Photos Flow                          
+|________________________________________________________________________|
+| Step 1: Take Photos of the Car                                         |
+| - Action: Capture photos using the app                                 |
+| - Photos Required:                                                     |
+|   - Front View                                                         |
+|   - Rear View                                                          |
+|   - Side Views (Left and Right)                                        |
+|   - Interior Dashboard                                                 |
+|   - Interior Seats                                                     |
+|   - Engine Bay                                                         |
+|   - Trunk                                                              |
+|   - Close-ups of any notable damages or defects                        |
+| - Notification: Each photo saved upon capture                          |
+|________________________________________________________________________|

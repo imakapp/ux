@@ -1,0 +1,60 @@
+                                     Value Car Flow                          
+|________________________________________________________________________|
+| Step 1: Start Value Car Process                                         |
+| - Trigger: User selects "Value Car" button                              |
+| - Action: Open value car form                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Enter VIN Number or Car Details                                 |
+| - Option 1: Enter VIN Number                                            |
+|   - Action: Fetch data from CAP HPI API                                 |
+|   - Auto-fill: Make, Model, Year, Trim                                  |
+| - Option 2: Enter Car Details Manually                                  |
+|   - Field to Fill: Make, Model, Year, Trim (each on a separate screen)  |
+| - Notification: Data auto-filled or manually entered                    |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Enter Mileage                                                   |
+| - Field to Fill: Mileage (slider from 0 to 300,000 miles)               |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Enter Contact Information                                       |
+| - Fields to Fill:                                                      |
+|   - Email                                                              |
+|   - Mobile Number                                                      |
+|   - "I am looking for" (Sell My Car or Buy a Car)                      |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Get Valuation                                                   |
+| - Action: Click "Get Valuation"                                         |
+| - Notification: Fetching car valuation from CAP HPI API                 |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Display Valuation                                               |
+| - Display: Valuation range (e.g., £10,000 - £15,000)                    |
+| - Options: Sell in Days, Weeks, Months (each shows different valuation) |
+| - Action: Select preferred valuation option                             |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 7: Finalize Valuation                                              |
+| - Action: Select "Sell My Car"                                          |
+| - Notification: Valuation process complete                              |
+|________________________________________________________________________|

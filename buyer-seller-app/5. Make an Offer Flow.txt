@@ -1,0 +1,75 @@
+                                     Make an Offer Flow                          
+|________________________________________________________________________|
+| Step 1: Select Car                                                      |
+| - Trigger: User selects a car                                           |
+| - Action: Open car details page/screen                                  |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Click "I'm Interested"                                          |
+| - Action: Display popup with options:                                   |
+|   - Make an Offer                                                       |
+|   - Book a Test Drive                                                   |
+|   - Reserve It                                                          |
+|   - Help                                                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Select "Make an Offer"                                          |
+| - Action: Start make an offer flow                                      |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Adjust Offer Price                                              |
+| - Field to Fill: Offer Price (slider to adjust between min and max price) |
+| - Action: Submit offer price                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Seller Notification                                             |
+| - Notification: Seller receives offer                                   |
+| - Action: Seller reviews offer and responds                             |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Seller Response                                                 |
+| - Options:                                                             |
+|   - Accept                                                             |
+|   - Reject                                                             |
+| - Notification: Buyer receives response                                 |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 7: Buyer Action Based on Response                                  |
+| - If Accepted:                                                         |
+|   - Options:                                                           |
+|     - Reserve It                                                       |
+|     - Book a Test Drive                                                |
+|     - Help                                                             |
+| - If Rejected:                                                         |
+|   - Options:                                                           |
+|     - Improve Offer                                                    |
+|     - Reserve It                                                       |
+|     - Book a Test Drive                                                |
+|     - Help                                                             |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 8: Confirm Action                                                  |
+| - Action: Proceed with selected option                                  |
+| - Notification: Action confirmed                                        |
+|________________________________________________________________________|

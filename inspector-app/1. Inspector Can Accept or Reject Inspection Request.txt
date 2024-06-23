@@ -1,0 +1,31 @@
+                                     Accept or Reject Inspection Request Flow                          
+|________________________________________________________________________|
+| Step 1: Notification of New Inspection Request                        |
+| - Trigger: New inspection request received                             |
+| - Notification: Inspector receives request notification                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: View Inspection Request Details                                |
+| - Action: Inspector opens request details                              |
+| - Details Displayed:                                                   |
+|   - Seller Information                                                 |
+|   - Car Details (Make, Model, Year, VIN)                               |
+|   - Inspection Location                                                |
+|   - Scheduled Date and Time                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Accept or Reject Inspection Request                            |
+| - Action: Inspector chooses to accept or reject the request            |
+| - If Accepted:                                                         |
+|   - Notification: Inspection request accepted                          |
+|   - Status: Update to "Accepted"                                       |
+| - If Rejected:                                                         |
+|   - Notification: Inspection request rejected                          |
+|   - Status: Update to "Rejected"                                       |
+|________________________________________________________________________|

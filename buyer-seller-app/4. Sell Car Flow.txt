@@ -1,0 +1,72 @@
+                                     Sell Car Flow                          
+|________________________________________________________________________|
+| Step 1: Start Sell Car Process                                          |
+| - Trigger: User selects "Sell Car" button                               |
+| - Action: Open sell car form                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Enter Car Details                                               |
+| - Fields to Fill:                                                      |
+|   - VIN Number or                                                      |
+|   - Make, Model, Year, Trim (dropdowns for each)                       |
+| - Action: Submit car details                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Enter Asking Price                                              |
+| - Field to Fill: Asking Price                                           |
+| - Action: Submit asking price                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Schedule Appointment for Car Inspection                        |
+| - Fields to Fill:                                                      |
+|   - Address                                                            |
+|   - Preferred Date                                                     |
+|   - Preferred Time                                                     |
+| - Action: Submit appointment details                                   |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Choose Package                                                  |
+| - Options to Select:                                                   |
+|   - Basic                                                              |
+|   - Standard                                                           |
+|   - Pro                                                                |
+|   - Premium                                                            |
+| - Action: Select and confirm package                                   |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Make Payment for Package                                        |
+| - Field to Fill: Payment Details                                        |
+| - Action: Submit payment                                                |
+| - Notification: Payment confirmed                                       |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 7: Inspection Scheduled                                            |
+| - Notification: Inspector assigned and appointment confirmed           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 8: Success Fee Notification                                        |
+| - Notification: Success fee to be paid upon sale completion            |
+| - Note: We will advertise "asking price + success fee" so you receive "asking price" |
+|________________________________________________________________________|
+

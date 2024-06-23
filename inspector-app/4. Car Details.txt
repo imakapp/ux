@@ -1,0 +1,10 @@
+                                     Car Details Flow                          
+|________________________________________________________________________|
+| Step 1: Enter Car Details                                              |
+| - Fields to Fill:                                                      |
+|   - VIN Number                                                         |
+|   - Upload VIN Photo                                                   |
+|   - Enter Asking Price                                                 |
+| - Action: Submit Car Details                                           |
+| - Notification: Car details saved                                      |
+|________________________________________________________________________|

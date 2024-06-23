@@ -1,0 +1,11 @@
+                                     Car Owner Information Flow                          
+|________________________________________________________________________|
+| Step 1: Enter Car Owner Information                                    |
+| - Fields to Fill:                                                      |
+|   - Owner's Name                                                       |
+|   - Owner's Phone Number                                               |
+|   - Select ID Type (Dropdown)                                          |
+|   - Upload ID Photo                                                    |
+| - Action: Submit Car Owner Information                                 |
+| - Notification: Car owner information saved                            |
+|________________________________________________________________________|

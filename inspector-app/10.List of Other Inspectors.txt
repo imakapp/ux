@@ -1,0 +1,26 @@
+                                     List of Other Inspectors Flow                          
+|________________________________________________________________________|
+| Step 1: Open Inspectors List                                           |
+| - Trigger: Inspector selects Inspectors                                |
+| - Action: Open list of other inspectors                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: View Inspectors List                                           |
+| - Display: List of all registered inspectors                           |
+| - Information Displayed:                                               |
+|   - Inspector Name                                                     |
+|   - Contact Information                                                |
+|   - Areas of Expertise                                                 |
+|   - Average Rating                                                     |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Filter and Sort Inspectors                                     |
+| - Action: Inspector applies filters (Expertise, Rating)                |
+| - Action: Inspector sorts by Name, Rating                              |
+|________________________________________________________________________|

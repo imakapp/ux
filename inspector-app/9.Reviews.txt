@@ -1,0 +1,26 @@
+Reviews Flow                          
+|________________________________________________________________________|
+| Step 1: Open Reviews                                                   |
+| - Trigger: Inspector selects Reviews                                   |
+| - Action: Open reviews section                                         |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: View Received Reviews                                          |
+| - Display: List of all reviews received                                |
+| - Information Displayed:                                               |
+|   - Review Date                                                        |
+|   - Rating (Stars)                                                     |
+|   - Comments                                                           |
+|   - Inspection ID                                                      |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Filter and Sort Reviews                                        |
+| - Action: Inspector applies filters (Date, Rating)                     |
+| - Action: Inspector sorts by Date, Rating                              |
+|________________________________________________________________________|

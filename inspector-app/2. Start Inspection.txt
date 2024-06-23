@@ -1,0 +1,30 @@
+                                     Start Inspection Flow                          
+|________________________________________________________________________|
+| Step 1: Open Inspection Section of the App                             |
+| - Trigger: Inspector opens inspection section within the app           |
+| - Action: Display login screen for inspection                          |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Enter Inspection Number and Verification Code                  |
+| - Fields to Fill:                                                      |
+|   - Inspection Number                                                  |
+|   - Verification Code                                                  |
+| - Action: Submit Inspection Number and Verification Code               |
+| - Notification: Verification successful, inspection started            |
+| - Note: Seller generates code using Buyer-Seller App and provides it to inspector |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Proceed to Inspection Details                                  |
+| - Action: Open inspection details screen                               |
+| - Details Displayed:                                                   |
+|   - Seller Information                                                 |
+|   - Car Details (Make, Model, Year, VIN)                               |
+|   - Inspection Location                                                |
+|   - Scheduled Date and Time                                            |
+|________________________________________________________________________|

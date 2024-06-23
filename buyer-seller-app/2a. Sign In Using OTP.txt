@@ -1,0 +1,32 @@
+                                     Sign In Using OTP Flow                          
+|________________________________________________________________________|
+| Step 1: Start Sign In                                                  |
+| - Trigger: User selects sign in                                        |
+| - Action: Open sign in form                                            |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Enter Mobile Number                                            |
+| - Field to Fill: Mobile Number                                         |
+| - Action: Submit Mobile Number                                         |
+| - Notification: Verification code (OTP) sent to mobile number          |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Enter OTP                                                      |
+| - Field to Fill: Enter OTP (Verification Code)                         |
+| - Action: Submit OTP                                                   |
+| - Notification: OTP verified                                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Sign In Complete                                               |
+| - Notification: Sign in successful                                     |
+| - Action: Redirect to Home Page                                        |
+|________________________________________________________________________|

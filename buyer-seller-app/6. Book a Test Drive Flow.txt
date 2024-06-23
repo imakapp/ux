@@ -1,0 +1,50 @@
+                                     Book a Test Drive Flow                          
+|________________________________________________________________________|
+| Step 1: Select Car                                                      |
+| - Trigger: User selects a car                                           |
+| - Action: Open car details page/screen                                  |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Click "I'm Interested"                                          |
+| - Action: Display popup with options:                                   |
+|   - Make an Offer                                                       |
+|   - Book a Test Drive                                                   |
+|   - Reserve It                                                          |
+|   - Help                                                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Select "Book a Test Drive"                                      |
+| - Action: Start book a test drive flow                                  |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Select Date and Time                                            |
+| - Fields to Fill:                                                      |
+|   - Preferred Date                                                     |
+|   - Preferred Time                                                     |
+| - Action: Submit preferred date and time                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 5: Seller Notification                                             |
+| - Notification: Seller receives test drive request                      |
+| - Action: Seller confirms or reschedules                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 6: Confirmation of Test Drive                                      |
+| - Notification: Buyer and seller receive test drive confirmation        |
+| - Action: Proceed with test drive at scheduled time                     |
+|________________________________________________________________________|

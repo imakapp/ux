@@ -1,0 +1,40 @@
+                                     Payments and Earnings Flow                          
+|________________________________________________________________________|
+| Step 1: Open Payments and Earnings                                     |
+| - Trigger: Inspector selects Payments and Earnings                     |
+| - Action: Open payments and earnings section                           |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: View Payment History                                           |
+| - Display: List of all payments received                               |
+| - Information Displayed:                                               |
+|   - Payment Date                                                       |
+|   - Amount Received                                                    |
+|   - Inspection ID                                                      |
+|   - Payment Status (Pending, Completed)                                |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: View Total Earnings                                            |
+| - Display: Total earnings to date                                      |
+| - Information Displayed:                                               |
+|   - Total Amount Earned                                                |
+|   - Number of Inspections Completed                                    |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 4: Record Each Payment and Transfer                               |
+| - Action: Record payment and transfer details in the app               |
+| - Information Displayed:                                               |
+|   - Payment Date                                                       |
+|   - Amount Transferred                                                 |
+|   - Bank Account Details                                               |
+| - Notification: Payment and transfer recorded                          |
+|________________________________________________________________________|

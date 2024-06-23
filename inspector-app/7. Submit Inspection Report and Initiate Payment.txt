@@ -1,0 +1,31 @@
+                                     Submit Inspection Report and Initiate Payment Flow                          
+|________________________________________________________________________|
+| Step 1: Review and Submit Inspection Report                            |
+| - Action: Review all entered information and photos                    |
+| - Action: Submit Inspection Report                                     |
+| - Notification: Report submitted successfully                          |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 2: Payment Initiation                                             |
+| - Trigger: Inspection report submitted                                 |
+| - Action: Calculate payment based on hourly rate                       |
+| - Default Duration: 2 hours                                            |
+| - Action: Deposit payment to inspector's linked bank account           |
+| - Notification: Payment of 2 hours rate initiated                      |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 3: Status Update and Record Payment                               |
+| - Status in Inspection App: "Report Submitted, Payment Initiated"      |
+| - Action: Record payment details in the app                            |
+| - Details Displayed:                                                   |
+|   - Payment Date                                                       |
+|   - Amount Paid                                                        |
+|   - Inspection ID                                                      |
+| - Notification: Status updated to "Report Submitted, Payment Initiated"|
+|________________________________________________________________________|
