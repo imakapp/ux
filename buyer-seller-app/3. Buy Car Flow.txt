@@ -1,48 +1,30 @@
-                                     Buy Car Flow                          
+                                     Reserve It Flow                          
 |________________________________________________________________________|
-| Step 1: Select Car                                                      |
-| - Trigger: User selects a car                                           |
-| - Action: Open car details page/screen                                  |
-|________________________________________________________________________|
-            |                                                                     
-            |                                                                     
-            v                                                                     
-|________________________________________________________________________|
-| Step 2: Click "I'm Interested"                                          |
-| - Action: Display popup with options:                                   |
-|   - Make an Offer                                                       |
-|   - Book a Test Drive                                                   |
-|   - Reserve It                                                          |
-|   - Help                                                                |
-|________________________________________________________________________|
-            |                                                                     
-            |                                                                     
-            v                                                                     
-|________________________________________________________________________|
-| Step 3: Select "Reserve It"                                             |
+| Step 1: Reserve It                                                     |
+| - Trigger: User selects "Reserve It" option from the car details page   |
 | - Action: Start reserve car flow                                        |
 |________________________________________________________________________|
             |                                                                     
             |                                                                     
             v                                                                     
 |________________________________________________________________________|
-| Step 4: Payment of 20% Car Price + Service Fee                          |
-| - Action: Select payment method                                         |
-| - Action: Confirm payment                                               |
+| Step 2: Pay 5% and Service Fees                                         |
+| - Action: Buyer selects payment method                                  |
+| - Action: Buyer confirms and pays 5% of car price and service fees      |
 |________________________________________________________________________|
             |                                                                     
             |                                                                     
             v                                                                     
 |________________________________________________________________________|
-| Step 5: Payment of Remaining Amount + Add-ons                           |
-| - Action: Select delivery and insurance options                         |
-| - Action: Confirm payment                                               |
+| Step 3: Seller Will Initial Sell Contract                              |
+| - Notification: Seller receives notification to initiate sell contract  |
+| - Action: Seller initiates and submits sell contract                    |
 |________________________________________________________________________|
             |                                                                     
             |                                                                     
             v                                                                     
 |________________________________________________________________________|
-| Step 6: Buyer Information for Ownership Transfer                        |
+| Step 4: Buyer Details and Pay Full Amount                              |
 | - Fields to Fill:                                                      |
 |   - First Name                                                         |
 |   - Last Name                                                          |
@@ -51,52 +33,34 @@
 |   - ID (License)                                                       |
 |   - Upload ID Image                                                    |
 |   - Home Address                                                       |
+| - Action: Buyer selects payment method                                  |
+| - Action: Buyer confirms and pays remaining amount                      |
 |________________________________________________________________________|
             |                                                                     
             |                                                                     
             v                                                                     
 |________________________________________________________________________|
-| Step 7: Confirmation Page                                               |
-| - Notification: Seller notified to submit ownership transfer details    |
-| - Details Displayed:                                                   |
-|   - Seller's First Name, Last Name                                     |
-|   - Car ID (image)                                                     |
-|   - Seller's ID (License image)                                        |
-|   - Mobile Number                                                      |
-|   - Email                                                              |
-|   - Vehicle Registration Number                                        |
-|   - Latest V5C Registration Certificate (logbook) document reference number |
-| - Action: Seller submits required information                          |
-|________________________________________________________________________|
-            |                                                                     
-            |                                                                     
-            v                                                                     
-|________________________________________________________________________|
-| Step 8: Transfer Vehicle Ownership                                      |
+| Step 5: Vehicle Ownership Transfer                                      |
 | - Action: VettedCars works with seller to transfer vehicle ownership    |
-| - Notification: Buyer notified upon completion                         |
+| - Notification: Buyer and seller notified upon completion               |
 |________________________________________________________________________|
             |                                                                     
             |                                                                     
             v                                                                     
 |________________________________________________________________________|
-| Step 9: Buyer Confirms Vehicle Received                                 |
+| Step 6: Vehicle Delivery and Hand Over Car and Green Slip               |
+| - Action: Arrange vehicle delivery or pickup                            |
+| - Notification: Buyer notified of delivery/pickup details               |
+| - Action: Seller hands over car and green slip to buyer                 |
+|________________________________________________________________________|
+            |                                                                     
+            |                                                                     
+            v                                                                     
+|________________________________________________________________________|
+| Step 7: Confirm with Code                                               |
 | - Notification: Buyer receives text code to confirm vehicle receipt     |
-| - Action: Buyer generates confirmation code                             |
-|________________________________________________________________________|
-            |                                                                     
-            |                                                                     
-            v                                                                     
-|________________________________________________________________________|
-| Step 10: Seller Enters Confirmation Code                                |
-| - Notification: Seller receives OTP to receive escrow-held payment      |
-| - Action: Seller enters OTP to confirm receipt and complete sale        |
-|________________________________________________________________________|
-            |                                                                     
-            |                                                                     
-            v                                                                     
-|________________________________________________________________________|
-| Step 11: Payment Transferred to Seller                                  |
+| - Action: Buyer provides confirmation code to seller                    |
+| - Notification: Seller enters OTP to receive escrow-held payment        |
+| - Action: Seller contacts buyer (mobile number displayed) and enters OTP to confirm receipt and complete sale |
 | - Notification: Payment transferred to seller                          |
-| - Action: Seller hands over green slip and car to buyer                 |
 |________________________________________________________________________|
